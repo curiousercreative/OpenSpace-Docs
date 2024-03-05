@@ -90,7 +90,7 @@ Following is a table that summarizes the updated property names/URI:s, which can
 | `BillboardMinMaxSize` | `Sizing.MaxSize` | Float | No longer a pixel value, so the value has to be updated |
 | `CorrectionSizeEndDistance` | (Removed) |  | |
 | `CorrectionSizeFactor` | (Removed) |  | |
-| `ScaleFactor` | `Sizing.ScaleExponent` | Float | Can be computed based on the previous value, as described in the [section above](compute-scaleexponent-from-scalefactor) |
+| `ScaleFactor` | `Sizing.ScaleExponent` | Float | Can be computed based on the previous value, as described in the [section above](#compute-scaleexponent-from-scalefactor) |
 
 Note that the full property URI would be of the form
 `Scene.<IdentifierOfNode>.Renderable.<NameOfPropertyFromTableAbove>`.
